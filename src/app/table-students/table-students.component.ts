@@ -11,7 +11,7 @@ import { students } from './mock-students';
 export class TableStudentsComponent implements OnInit {
   // cuando inicia un componente incia aqui
   public students?: any[];
-  ngInit(): void {
+  ngOnInit(): void {
     this.students = students;
   }
 }

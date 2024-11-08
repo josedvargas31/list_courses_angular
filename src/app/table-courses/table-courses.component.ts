@@ -11,7 +11,7 @@ import { courses } from './mock-courses';
 export class TableCoursesComponent implements OnInit {
   // cuando inicia un componente incia aqui
   public courses?: any[];
-  ngInit(): void {
+  ngOnInit(): void {
     this.courses = courses;
   }
 }
