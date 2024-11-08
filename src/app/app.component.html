@@ -1,9 +1,11 @@
 <app-table-students *ngIf="cursos"></app-table-students>
 <app-table-courses *ngIf="!cursos"></app-table-courses>
 
-<button
-  class="transition ease-in-out delay-150 bg-red-500 hover:-translate-y-1 hover:scale-110 hover:bg-amber-600 duration-300 text-white rounded-lg px-2 py-2 m-2"
-  (click)="hangleCambio()"
->
-  Cambiar de tabla
-</button>
+<div class="flex justify-center my-4">
+  <button
+  class="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 text-white rounded-lg px-2 py-2 m-2"
+    (click)="hangleCambio()"
+  >
+    Cambiar de tabla
+  </button>
+</div>
