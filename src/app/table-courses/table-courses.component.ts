@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { courses } from './mock-courses';
 
 @Component({
   selector: 'app-table-courses',
@@ -7,6 +8,10 @@ import { Component } from '@angular/core';
   templateUrl: './table-courses.component.html',
   styleUrl: './table-courses.component.css'
 })
-export class TableCoursesComponent {
-
+export class TableCoursesComponent implements OnInit {
+  // cuando inicia un componente incia aqui
+  public courses?: any[];
+  ngInit(): void {
+    this.courses = courses;
+  }
 }
