@@ -1,17 +1,20 @@
 export const students = [
     {
+        id: 1,
         nombre: 'Miguel Andres',
         apellido: 'Perez Vargas',
-        promedio: 0.0
+        promedio: 3
 
     },
     {
+        id: 2,
         nombre: 'Nala',
         apellido: 'Molina Ruiz',
         promedio: 5
 
     },
     {
+        id: 3,
         nombre: 'Patroquio Hunji',
         apellido: 'Clemendo Patria',
         promedio: 8

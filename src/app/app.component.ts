@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { TableCoursesComponent } from './table-courses/table-courses.component';
-import { TableStudentsComponent } from './table-students/table-students.component';
+import { TableCoursesComponent } from './components/table-courses/table-courses.component';
+import { TableStudentsComponent } from './components/table-students/table-students.component';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -10,6 +10,7 @@ import { CommonModule } from '@angular/common';
   imports: [RouterOutlet, TableCoursesComponent, TableStudentsComponent, CommonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
+  
 })
 export class AppComponent {
   cursos: boolean = true;
