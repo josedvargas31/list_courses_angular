@@ -20,7 +20,7 @@ First, run the development server:
    bun dev
 ```
 
-This will start the project at http://localhost:4200
+This will start the project at http://localhost:4200/
 
 You can start editing the page by modifying `componets/app.component.html`. The page auto-updates as you edit the file.
 
